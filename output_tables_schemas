@@ -1,0 +1,33 @@
+        Table "public.vbid7842_exposed"
+  Column   |          Type          | Modifiers 
+-----------+------------------------+-----------
+ uid       | character varying(256) | 
+ mediatype | character varying(256) | 
+ networkid | character varying(256) | 
+ deviceid  | character varying(256) | 
+ dma       | character varying(256) | 
+
+    Table "public.vbid7842_exposed_visitors"
+   Column   |          Type          | Modifiers 
+------------+------------------------+-----------
+ uid        | character varying(256) | 
+ mediatype  | character varying(256) | 
+ networkid  | character varying(256) | 
+ deviceid   | character varying(256) | 
+ name       | character varying(256) | 
+ exposeddma | character varying(256) | 
+ dma        | character varying(256) | 
+
+        Table "public.vbid7842_users"
+ Column |          Type          | Modifiers 
+--------+------------------------+-----------
+ uid    | character varying(256) | 
+ dma    | character varying(256) | 
+ 
+      Table "public.vbid7842_visitors"
+ Column |          Type          | Modifiers 
+--------+------------------------+-----------
+ uid    | character varying(256) | 
+ name   | character varying(256) | 
+ dma    | character varying(256) | 
+
